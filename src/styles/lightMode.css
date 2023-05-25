@@ -1,0 +1,16 @@
+.--lightMode {
+  background: var(--white);
+  border: 2px solid var(--border-color-1);
+}
+
+.--lightMode:hover {
+  border: none;
+  color: var(--white);
+}
+
+.--lightModeOutline {
+  color: var(--primary-1);
+  -webkit-text-fill-color: var(--white);
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--grey-1);
+}
