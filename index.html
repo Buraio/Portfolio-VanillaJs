@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="root root--dark" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,13 +7,134 @@
 
     <title>Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="src/styles/index.css" />
 
     <script src="src/js/index.js" type="module" defer></script>
   </head>
-  <body>
-    <header class="">
-
+  <body class="body">
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__title">Bryan Silva</h1>
+        <button class="header__btn">
+          <img class="btn__img" src="src/assets/icons/bars.svg" alt="" />
+        </button>
+      </div>
     </header>
+
+    <main class="main">
+      <div class="main__container">
+        <section class="introduction">
+          <div class="introduction__user">
+            <img src="src/assets/img/bryanSilva.png" alt="" class="user__img" />
+            <p class="introduction__greetings">
+              Hello, my name is Bryan Silva!
+            </p>
+          </div>
+
+          <h2 class="introduction__title">
+            Full Stack <span class="title--colorize">Web Developer</span> with a
+            passion for <span class="title--colorize">great challenges</span>
+          </h2>
+
+          <p class="introduction__description">
+            Discover here in this environment, created especially for you, all
+            my projects and technologies
+          </p>
+
+          <div class="introduction__link-div">
+            <a class="link-div__my-projects" href="#my-projects">My Projects</a>
+            <a class="link-div__linkedin" href="https://www.linkedin.com/in/buraio/" target="_blank">LinkedIn</a>
+            <a class="link-div__github" href="https://www.github.com/Buraio/" target="_blank"></a>
+          </div>
+        </section>
+        <section class="about-me">
+          <h2 class="about-me__title">About Me</h2>
+          <p class="about-me__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta,
+            nibh ut sagittis dignissim, neque nisl fermentum lorem, non placerat
+            metus mauris nec sem. Aenean suscipit ipsum magna, in tristique
+            mauris consectetur auctor. Praesent maximus augue in rutrum dapibus.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. In sed dui vel risus porta vehicula a
+            venenatis dui. Cras ornare semper lorem id luctus. Vestibulum
+            iaculis pellentesque magna, et lobortis mi dapibus at. Donec porta
+            leo eget iaculis lacinia. Proin tempor turpis in rutrum consequat.
+            Aenean auctor tincidunt tortor, sit amet aliquet eros auctor eget.
+            Phasellus tincidunt maximus ultrices.
+          </p>
+        </section>
+        <section class="techs">
+          <h2 class="techs__title">Techs</h2>
+          <ul class="techs__tech-div"></ul>
+        </section>
+        <section id="my-projects" class="my-projects">
+          <h2 class="my-projects__title">My Projects</h2>
+          <ul class="my-projects__project-list">
+            <li class="project-list__project">
+              <h3 class="project__title">Project Name</h3>
+              <p class="project__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                tempor quam ut lacus dignissim accumsan.
+              </p>
+              <a href="" class="project__source-link">Source Code</a>
+              <a href="" class="project__demo-link">Go To Page</a>
+            </li>
+            <li class="project-list__project">
+              <h3 class="project__title">Project Name</h3>
+              <p class="project__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                tempor quam ut lacus dignissim accumsan.
+              </p>
+              <a href="" class="project__source-link">Source Code</a>
+              <a href="" class="project__demo-link">Go To Page</a>
+            </li>
+            <li class="project-list__project">
+              <h3 class="project__title">Project Name</h3>
+              <p class="project__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                tempor quam ut lacus dignissim accumsan.
+              </p>
+              <a href="" class="project__source-link">Source Code</a>
+              <a href="" class="project__demo-link">Go To Page</a>
+            </li>
+            <li class="project-list__project">
+              <h3 class="project__title">Project Name</h3>
+              <p class="project__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                tempor quam ut lacus dignissim accumsan.
+              </p>
+              <a href="" class="project__source-link">Source Code</a>
+              <a href="" class="project__demo-link">Go To Page</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__thanks">
+          <img class="thanks__user-img" src="src/assets/img/bryanSilva.png" alt="" />
+          <h3 class="thanks__title">Thank You!</h3>
+          <p class="thanks__network-paragraph">
+            Follow me on my social networks and let's talk
+          </p>
+        </div>
+        <div class="footer__media-box">
+          <button class="media-box__email"></button>
+          <button class="media-box__whatsapp"></button>
+          <button class="media-box__linkedin"></button>
+        </div>
+      </div>
+      <div class="footer__author">
+        <p class="author__content">© 2023 Design and Code by Bryan Silva</p>
+      </div>
+    </footer>
   </body>
 </html>

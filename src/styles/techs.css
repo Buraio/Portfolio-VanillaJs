@@ -1,0 +1,10 @@
+.techs__title {
+  font-size: var(--t-size-5);
+  font-family: var(--font-family-1);
+  font-weight: bold;
+  color: var(--text-color-1);
+}
+
+.techs__title, .techs__tech-div {
+  margin: 35px 0;
+}

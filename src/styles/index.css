@@ -1,6 +1,9 @@
 @import "./global.css";
+@import "./reset.css";
 @import "./header.css";
 @import "./introduction.css";
 @import "./aboutMe.css";
+@import "./techs.css";
 @import "./projects.css";
 @import "./footer.css";
+@import "./scroll.css";

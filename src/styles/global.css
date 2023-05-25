@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.body {
+  width: 100%;
+  background-color: var(--back-color-1);
+}
+
+.header,
+.main,
+.footer {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.main__container,
+.footer__container {
+  margin: 30px 25px;
+}
+
+.root:root {
+  --primary-1: #f97316;
+  --primary-2: #ea580c;
+  --secondary-1: #22d3ee;
+  --secondary-2: #06b6d4;
+  --terciary-1: #ef4444;
+  --terciary-2: #dc2626;
+  --quaternary-1: #4ade80;
+  --quaternary-2: #22c55e;
+
+  --grey-0: #0a0a0a;
+  --grey-1: #121212;
+  --grey-2: #868e96;
+  --grey-3: #e9ecef;
+  --grey-4: #f8f9fa;
+  --white: #ffffff;
+
+  /* Text-size styles */
+  /* base size: t-size-base (10px) */
+  --t-size-base: 1rem;
+  --t-size-1: 1.4rem;
+  --t-size-2: 1.6rem;
+  --t-size-3: 2.2rem;
+  --t-size-4: 2.4rem;
+  --t-size-5: 2.6rem;
+  --t-size-6: 2.8rem;
+  --t-size-7: 3.2rem;
+  --t-size-8: 3.8rem;
+
+  /* Font-family styles */
+  --font-family-1: "IBM Plex Sans";
+  --font-family-2: "Inter";
+}
+
+.root--light {
+  --back-color-1: var(--white);
+  --back-color-2: var(--grey-4);
+
+  --text-color-1: var(--grey-0);
+  --text-color-2: var(--grey-1);
+  --text-color-3: var(--grey-0);
+
+  --border-color-1: var(--grey-0);
+  --border-color-2: var(--grey-0);
+
+  --scroll-color: var(--white);
+}
+
+.root--dark {
+  /* Color styles */
+  --back-color-1: var(--grey-1);
+  --back-color-2: var(--grey-0);
+
+  --text-color-1: var(--grey-4);
+  --text-color-2: var(--grey-4);
+  --text-color-3: var(--white);
+
+  --border-color-1: var(--primary-1);
+  --border-color-2: var(--white);
+
+  --scroll-color: var(--grey-1);
+}
