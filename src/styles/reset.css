@@ -1,0 +1,14 @@
+.btn--reset {
+  border: none;
+  background: transparent;
+}
+
+.link--reset {
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+
+.list--reset {
+  list-style: none;
+}

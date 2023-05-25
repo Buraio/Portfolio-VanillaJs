@@ -1,0 +1,17 @@
+.about-me__title, .about-me__content {
+  margin: 35px 0;
+  color: var(--text-color-1);
+}
+
+.about-me__title {
+  font-size: var(--t-size-5);
+  font-family: var(--font-family-1);
+  font-weight: bold;
+}
+
+.about-me__content {
+  font-size: var(--t-size-1);
+  font-family: var(--font-family-2);
+  font-weight: normal;
+  line-height: 25px;
+}

@@ -1,0 +1,70 @@
+.footer {
+  background-color: var(--back-color-2);
+  border-top: 2px solid var(--primary-1);
+}
+
+.footer__thanks {
+  width: 305px;
+  height: 200px;
+  padding: 0 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thanks__user-img {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
+
+.thanks__title {
+  color: var(--text-color-1);
+  font-size: var(--t-size-3);
+  font-weight: bold;
+  font-family: var(--font-family-1);
+}
+
+.thanks__network-paragraph {
+  color: var(--text-color-2);
+  font-size: var(--t-size-1);
+  font-family: var(--font-family-2);
+  text-align: center;
+}
+
+.footer__author {
+  width: 100%;
+  max-width: 175px;
+  margin: 0 auto;
+}
+
+.footer__media-box {
+  width: 140px;
+  height: 40px;
+  margin: 35px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.media-box__email,
+.media-box__whatsapp,
+.media-box__linkedin {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  border: none;
+}
+
+.media-box__email {
+  background: linear-gradient(135deg, var(--terciary-1), var(--terciary-2));
+}
+
+.media-box__whatsapp {
+  background: linear-gradient(135deg, var(--quaternary-1), var(--quaternary-2));
+}
+
+.media-box__linkedin {
+  background: linear-gradient(135deg, var(--secondary-1), var(--secondary-2));
+}
